@@ -2,6 +2,7 @@ from vector import Vector
 
 
 class Matrix:
+    """Matrix class"""
     def __init__(self, plist_of_list, tup=None):
         if tup is not None and isinstance(plist_of_list, list):
             if isinstance(tup, tuple):
